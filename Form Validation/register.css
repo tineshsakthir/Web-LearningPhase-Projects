@@ -1,0 +1,135 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image:url("7482290.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    font-size: 67%;
+}
+.main{
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    height: auto;
+    padding:1rem;
+    border-radius: 20px;
+    /* background-color:aqua; */
+    margin: 30px;
+    background-color: #a3c4f3;
+    border: 1px solid black;
+    opacity: 0.8;
+    
+    font-weight: bold;
+  color:#354f52;
+    font: 1rems orange;
+    gap: 4px;
+}
+label{
+    font-size: large;
+}
+/* div:hover{
+    animation: shake 0.5s;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } */
+  .transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+#phoneNoValidationText{
+  display: none;
+}
+
+#emailValidationText{
+  display: none;
+}
+
+#ageValidationText{
+  display:none;
+}
+
+
+
+
+// Object 22
+Train train22 = new Train();
+train22.setTrainName("Chennai-Mangalore Express");
+train22.setTrainSourceStation("Chennai Central");
+train22.setTrainDestinationStation("Mangalore");
+train22.setTrainArrivalTime(Time.valueOf(LocalTime.of(10, 15)));
+train22.setTrainDepartureTime(Time.valueOf(LocalTime.of(10, 45)));
+train22.setTrainArrivalDate(Date.valueOf(LocalDate.of(2023, 11, 5)));
+train22.setTrainDepartureDate(Date.valueOf(LocalDate.of(2023, 11, 6)));
+train22.setTrainAverageSpeed(125);
+train22.setTrainType("Express");
+
+// Object 23
+Train train23 = new Train();
+train23.setTrainName("Bengaluru-Chennai Shatabdi");
+train23.setTrainSourceStation("Bengaluru");
+train23.setTrainDestinationStation("Chennai Central");
+train23.setTrainArrivalTime(Time.valueOf(LocalTime.of(14, 30)));
+train23.setTrainDepartureTime(Time.valueOf(LocalTime.of(15, 0)));
+train23.setTrainArrivalDate(Date.valueOf(LocalDate.of(2023, 11, 10)));
+train23.setTrainDepartureDate(Date.valueOf(LocalDate.of(2023, 11, 11)));
+train23.setTrainAverageSpeed(150);
+train23.setTrainType("Shatabdi");
+
+// Object 24
+Train train24 = new Train();
+train24.setTrainName("Hyderabad-Chennai Duronto");
+train24.setTrainSourceStation("Hyderabad");
+train24.setTrainDestinationStation("Chennai Central");
+train24.setTrainArrivalTime(Time.valueOf(LocalTime.of(18, 45)));
+train24.setTrainDepartureTime(Time.valueOf(LocalTime.of(19, 15)));
+train24.setTrainArrivalDate(Date.valueOf(LocalDate.of(2023, 11, 15)));
+train24.setTrainDepartureDate(Date.valueOf(LocalDate.of(2023, 11, 16)));
+train24.setTrainAverageSpeed(140);
+train24.setTrainType("Duronto");
+
+// Object 25
+Train train25 = new Train();
+train25.setTrainName("Chennai-Coimbatore Intercity");
+train25.setTrainSourceStation("Chennai Central");
+train25.setTrainDestinationStation("Coimbatore");
+train25.setTrainArrivalTime(Time.valueOf(LocalTime.of(7, 0)));
+train25.setTrainDepartureTime(Time.valueOf(LocalTime.of(7, 30)));
+train25.setTrainArrivalDate(Date.valueOf(LocalDate.of(2023, 11, 20)));
+train25.setTrainDepartureDate(Date.valueOf(LocalDate.of(2023, 11, 21)));
+train25.setTrainAverageSpeed(130);
+train25.setTrainType("Intercity");
+
+// Object 26
+Train train26 = new Train();
+train26.setTrainName("Chennai-Thiruvananthapuram Express");
+train26.setTrainSourceStation("Chennai Central");
+train26.setTrainDestinationStation("Thiruvananthapuram");
+train26.setTrainArrivalTime(Time.valueOf(LocalTime.of(16, 0)));
+train26.setTrainDepartureTime(Time.valueOf(LocalTime.of(16, 30)));
+train26.setTrainArrivalDate(Date.valueOf(LocalDate.of(2023, 11, 25)));
+train26.setTrainDepartureDate(Date.valueOf(LocalDate.of(2023, 11, 26)));
+train26.setTrainAverageSpeed(135);
+train26.setTrainType("Express");

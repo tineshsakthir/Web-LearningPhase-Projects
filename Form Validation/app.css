@@ -1,0 +1,47 @@
+body,*{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+ul,li,a{
+
+    text-decoration: none;
+    color: olivedrab;
+    list-style-type: none;
+   
+}
+img{
+  
+    height : 550px
+}
+h1{
+    font-size: 2.4rem;
+    padding: 1.3rem ;
+
+    text-align:  center;
+    width: 100%;
+    background-color:#a2d2ff ;
+}
+
+ul,a{
+background-color: #bde0fe;
+font-size: 2rem;
+ display: flex;
+justify-content:space-evenly
+}
+
+img{
+    width:100%;
+}
+
+div{
+    width: 200px;
+    height: 400px;
+    margin:0px;
+    padding:0px;
+}
+div img{
+    margin:0px;
+    padding: 0px ;
+}
